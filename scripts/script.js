@@ -47,39 +47,12 @@ function listClickManager(/* event- event.target */) {
   // if (event.target.className === 'edit') { editListElement(id) }
 }
 
-function removeListElement(/* id */) {
-  // Usuwanie elementu z listy
-}
-
-function editListElement(/* id */) {
-  // Pobranie informacji na temat zadania
-  // Umieść dane w popupie
-}
-
-function addDataToPopup(/* Title, author, id */) {
-  // umieść informacje w odpowiednim miejscu w popupie
-}
-
-function acceptChangeHandler() {
-  // pobierz dane na temat zadania z popupu (id, nowyTitle, nowyColor ...)
-  // Następnie zmodyfikuj element listy wrzucając w niego nowyTitle, nowyColor...
-  // closePopup()
-}
-
 function openPopup() {
   // Otwórz popup
 }
 
 function closePopup() {
   // Zamknij popup
-}
-
-function declineChanges() { //niepotrzebna raczej
-  // closePopup()
-}
-
-function markElementAsDone(/* id */) {
-  //zaznacz element jako wykonany (podmień klasę CSS)
 }
 
 document.addEventListener('DOMContentLoaded', main);
